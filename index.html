@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MeTi - Auto Title And Description Generator</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+		<div class="col-12">
+			<!-- <form> -->
+			  <div class="form-row">
+			    <div class="form-group col-md-5">
+			      <label for="inputCity">Store</label>
+			      <input type="text" class="form-control" id="inputStore">
+			    </div>
+			    <div class="form-group col-md-3">
+			      <label for="inputState">Off/Discount</label>
+			      <input type="text" class="form-control" id="inputOff">
+			    </div>
+			    <div class="form-group col-md-2">
+			      <label for="inputMonth">Month</label>
+			      <select id="inputMonth" class="form-control">
+			        <option selected value="">Choose...</option>
+			        <option value="January">January</option>
+			        <option value="February">February</option>
+			        <option value="March">March</option>
+			        <option value="April">April</option>
+			        <option value="May">May</option>
+			        <option value="June">June</option>
+			        <option value="July">July</option>
+			        <option value="August">August</option>
+			        <option value="September">September</option>
+			        <option value="October">October</option>
+			        <option value="November">November</option>
+			        <option value="December">December</option>
+			      </select>
+			    </div>
+			    <div class="form-group col-md-2">
+			      <label for="inputZip">Just Click</label>
+			      <button type="submit" class="btn btn-primary form-control" onclick="MeTi_generator()">Generate</button>
+			    </div>
+			  </div>
+			<!-- </form> -->
+		</div>
+	</div>
+
+	<!-- Title List -->
+	<div class="row">
+		<div class="col-12" id="titleTable">
+			<h2 class="h2 text-center">Please Fill Up Form and Click Generate Button</h2>
+		</div>
+	</div>
+
+	<!-- for Description List -->
+	<div class="row">
+		<div class="col-12" id="metaTable">
+			
+		</div>
+	</div>
+
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
