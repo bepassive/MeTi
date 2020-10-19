@@ -36,15 +36,19 @@ function MeTi_generator(){
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">6</th>'+
-			      '<td><input type="text" name="" class="form-control" value="'+off.value+' Off '+store.value+' Promo Codes, Sales & Deals '+month.value+' '+year+'"></td>'+
+			      '<td><input type="text" name="" class="form-control" value="'+off.value+' Off '+store.value+' Promo Codes, Sales & Deals '+month.value+'-'+year+'"></td>'+
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">7</th>'+
-			      '<td><input type="text" name="" class="form-control" value="Up to '+off.value+' Off First Order With '+store.value+' Sign Up | Oct-20"></td>'+
+			      '<td><input type="text" name="" class="form-control" value="Up to '+off.value+' Off First Order With '+store.value+' Sign Up | '+month.value+'-'+year+'"></td>'+
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">8</th>'+
 			      '<td><input type="text" name="" class="form-control" value="Get '+off.value+' Off '+store.value+' Coupons & Promo Codes, '+month.value+' '+year+'"></td>'+
+			    '</tr>'+
+			    '<tr>'+
+			      '<th scope="row">9</th>'+
+			      '<td><input type="text" name="" class="form-control" value="Save '+off.value+' Off '+store.value+' Coupons, Promo Codes & Deals | '+month.value+' '+year+'"></td>'+
 			    '</tr>'+
 			  '</tbody>'+
 			'</table>';
@@ -64,15 +68,15 @@ function MeTi_generator(){
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">2</th>'+
-			      '<td><textarea name="" id="" cols="10" rows="3" class="form-control">'+store.value+' Promo Code for '+month.value+' '+year+'. Get Instant '+off.value+' Discount. Special Coupon & 100% Valid Offer. Last Verified '+month.value+' '+year+'. Offer Ends Soon.</textarea></td>'+
+			      '<td><textarea name="" id="" cols="10" rows="3" class="form-control">'+store.value+' Promo Code for [my]. Get Instant '+off.value+' Discount. Special Coupon & 100% Valid Offer. Offer Ends Soon. Last Verified [dmy].</textarea></td>'+
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">3</th>'+
-			      '<td><textarea name="" id="" cols="10" rows="3" class="form-control">Grab Special Discount on All Valid '+store.value+' Coupon Codes in '+month.value+' '+year+' Including '+store.value+' Coupon Codes and more Deals. View The Following List of Coupons and Click to Get The Code. Never Miss The Big Savings. </textarea></td>'+
+			      '<td><textarea name="" id="" cols="10" rows="3" class="form-control">Grab Special Discount on All Valid '+store.value+' Coupon Codes in [my] Including '+store.value+' Coupon Codes and more Deals. View The Following List of Coupons and Click to Get The Code. Never Miss The Big Savings. </textarea></td>'+
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">4</th>'+
-			      '<td><textarea name="" id="" cols="10" rows="3" class="form-control">Get extra off with '+store.value+' coupons, promo codes & deals in '+month.value+' '+year+'. Check out the latest '+store.value+' coupons and apply them for instant savings. View the following list of coupons and click to get the code. Never miss the big savings.</textarea></td>'+
+			      '<td><textarea name="" id="" cols="10" rows="3" class="form-control">Get extra off with '+store.value+' coupons, promo codes & deals in [my]. Check out the latest '+store.value+' coupons and apply them for instant savings. View the following list of coupons and click to get the code. Never miss the big savings.</textarea></td>'+
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">5</th>'+
@@ -80,11 +84,15 @@ function MeTi_generator(){
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">6</th>'+
-			      '<td><textarea name="" id="" cols="10" rows="3" class="form-control">Today\'s top '+store.value+' offer: Up to '+off.value+' Off '+store.value+' Promo Codes & Coupons | '+month.value+' '+year+' + Free Shipping. Save with '+store.value+' promotions code. Stay with Berry Deals & Save Your Money!</textarea></td>'+
+			      '<td><textarea name="" id="" cols="10" rows="3" class="form-control">Today\'s top '+store.value+' offer: Up to '+off.value+' Off '+store.value+' Promo Codes & Coupons | [my] + Free Shipping. Save with '+store.value+' promotions code. Stay with Berry Deals & Save Your Money!</textarea></td>'+
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">7</th>'+
-			      '<td><textarea name="" id="" cols="10" rows="3" class="form-control">Today\'s top '+store.value+' offer: Up to '+off.value+' Off '+store.value+' Promo Codes & Coupons | '+month.value+' '+year+' + Free Shipping. Save with '+store.value+' promotions at Berry Deals. Check out other promo codes and discount codes for more offers.</textarea></td>'+
+			      '<td><textarea name="" id="" cols="10" rows="3" class="form-control">Today\'s top '+store.value+' offer: Up to '+off.value+' Off '+store.value+' Promo Codes & Coupons | [my] + Free Shipping. Save with '+store.value+' promotions at Berry Deals. Check out other promo codes and discount codes for more offers.</textarea></td>'+
+			    '</tr>'+
+			    '<tr>'+
+			      '<th scope="row">8</th>'+
+			      '<td><textarea name="" id="" cols="10" rows="3" class="form-control">Today\'s '+store.value+' offers you get up to '+off.value+' Off with 6-month membership. Get more than 20 '+off.value+' coupons and promo codes for [my]. Check out other promo codes and discount codes for more offers.</textarea></td>'+
 			    '</tr>'+
 			  '</tbody>'+
 			'</table>';
