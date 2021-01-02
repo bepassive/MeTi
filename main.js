@@ -2,17 +2,14 @@ var store = document.getElementById('inputStore');
 var off = document.getElementById('inputOff');
 var month = document.getElementById('inputMonth');
 
-
 var slugTable = document.getElementById('slugTable');
 var titleTable = document.getElementById('titleTable');
 var extraInfoTable = document.getElementById('extraInfoTable');
 var descTable = document.getElementById('descTable');
 var metaTable = document.getElementById('metaTable');
-var year = '2020';
+var year = '2021';
 
 function MeTi_generator(){
-	
-	
 	slugTable.innerHTML='<table class="table">'+
 			  '<tbody>'+
 			    '<tr>'+
@@ -34,31 +31,31 @@ function MeTi_generator(){
 			  '<tbody>'+
 			    '<tr>'+
 			      '<th scope="row">1</th>'+
-			      '<td><input type="text" name="" class="form-control" value="Up to '+off.value+' Off '+store.value+' Promo Code & Coupon | '+month.value+'-'+year+'"></td>'+
+			      '<td><input type="text" name="" class="form-control" value="Up to '+off.value+' Off '+store.value+' Promo Code & Coupon | '+month.value+' '+year+'"></td>'+
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">2</th>'+
-			      '<td><input type="text" name="" class="form-control" value="'+off.value+' Off '+store.value+' Coupon & Promo Code for '+month.value+'-'+year+'"></td>'+
+			      '<td><input type="text" name="" class="form-control" value="'+off.value+' Off '+store.value+' Coupon & Promo Code for '+month.value+' '+year+'"></td>'+
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">3</th>'+
-			      '<td><input type="text" name="" class="form-control" value="'+off.value+' Cash Back For '+store.value+' Online Purchases Sitewide | '+month.value+'-'+year+'"></td>'+
+			      '<td><input type="text" name="" class="form-control" value="'+off.value+' Cash Back For '+store.value+' Online Purchases Sitewide | '+month.value+' '+year+'"></td>'+
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">4</th>'+
-			      '<td><input type="text" name="" class="form-control" value="Up to '+off.value+' Off First Order With '+store.value+' Sign Up | '+month.value+'-'+year+'"></td>'+
+			      '<td><input type="text" name="" class="form-control" value="Up to '+off.value+' Off First Order With '+store.value+' Sign Up | '+month.value+' '+year+'"></td>'+
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">5</th>'+
-			      '<td><input type="text" name="" class="form-control" value="Up to '+off.value+' Off '+store.value+' with Fast & Free Shipping on Sitewide Order | '+month.value+'-'+year+'"></td>'+
+			      '<td><input type="text" name="" class="form-control" value="Up to '+off.value+' Off '+store.value+' with Fast & Free Shipping on Sitewide Order | '+month.value+' '+year+'"></td>'+
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">6</th>'+
-			      '<td><input type="text" name="" class="form-control" value="'+off.value+' Off '+store.value+' Promo Code, Sale & Deal '+month.value+'-'+year+'"></td>'+
+			      '<td><input type="text" name="" class="form-control" value="'+off.value+' Off '+store.value+' Promo Code, Sale & Deal '+month.value+' '+year+'"></td>'+
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">7</th>'+
-			      '<td><input type="text" name="" class="form-control" value="Up to '+off.value+' Off First Order With '+store.value+' Sign Up | '+month.value+'-'+year+'"></td>'+
+			      '<td><input type="text" name="" class="form-control" value="Up to '+off.value+' Off First Order With '+store.value+' Sign Up | '+month.value+' '+year+'"></td>'+
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">8</th>'+
@@ -102,11 +99,11 @@ function MeTi_generator(){
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">6</th>'+
-			      '<td><textarea name="" id="" cols="10" rows="3" class="form-control">Today\'s top '+store.value+' offer: Up to '+off.value+' Off '+store.value+' Promo Codes & Coupons | '+month.value+' '+year+' + Free Shipping. Save with '+store.value+' Promotions Code. Stay with Berry Deals & Save Your Money! Last Verified [dmy].</textarea></td>'+
+			      '<td><textarea name="" id="" cols="10" rows="3" class="form-control">Today\'s top '+store.value+' offer: Up to '+off.value+' Off '+store.value+' Promo Codes & Coupons for '+month.value+' '+year+' + Free Shipping. Save with '+store.value+' Promotions Code. Stay with Berry Deals & Save Your Money! Last Verified [dmy].</textarea></td>'+
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">7</th>'+
-			      '<td><textarea name="" id="" cols="10" rows="3" class="form-control">Today\'s top '+store.value+' offer: Up to '+off.value+' Off '+store.value+' Promo Codes & Coupons | '+month.value+' '+year+' + Free Shipping. Save with '+store.value+' Promotions at Berry Deals. Check Out Other Promo Codes and Discount Codes for More Offers.</textarea></td>'+
+			      '<td><textarea name="" id="" cols="10" rows="3" class="form-control">Today\'s top '+store.value+' offer: Up to '+off.value+' Off '+store.value+' Promo Codes & Coupons of '+month.value+' '+year+' + Free Shipping. Save with '+store.value+' Promotions at Berry Deals. Check Out Other Promo Codes and Discount Codes for More Offers.</textarea></td>'+
 			    '</tr>'+
 			    '<tr>'+
 			      '<th scope="row">8</th>'+
